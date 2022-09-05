@@ -4,6 +4,7 @@
     --primary-text-color: #757575;
     --logo-text-color: #000;
     --accent-color: #2196f3;
+    --button-hover-color:#188CE8;
     --team-background-color: #f5f4fa;
     --footer-contact-color: rgba(255, 255, 255, 0.6);
     --footer-background-color: #2f303a;
@@ -145,6 +146,11 @@ body {
     cursor: pointer;
 }
 
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: var(--button-hover-color);
+}
+
 /* Features section */
 
 .features {
@@ -158,6 +164,7 @@ body {
 
 .features .title {
     font-weight: 700;
+    font-size: 14px;;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -201,7 +208,7 @@ body {
     color: var(--primary-title-color);
 }
 
-.team.text {
+.team .text {
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
@@ -237,7 +244,7 @@ body {
 }
 
 .footer .mail:hover,
-.footer.mail:focus {
+.footer .mail:focus {
     color: var(--accent-color);
 }
 
